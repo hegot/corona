@@ -1,0 +1,7 @@
+frontpage.frontpage:
+  path: '/frontpage'
+  defaults:
+    _controller: '\Drupal\frontpage\Controller\FrontpageController::frontpage'
+    _title: 'Frontpage'
+  requirements:
+    _permission: 'access content'

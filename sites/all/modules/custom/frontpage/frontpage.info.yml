@@ -1,0 +1,7 @@
+name: Frontpage
+type: module
+description: Corona questionaire frontpage
+version: '8.x-1.0'
+core: '8.x'
+project: 'frontpage'
+datestamp: 1559577788

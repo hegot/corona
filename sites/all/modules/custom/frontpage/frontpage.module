@@ -1,0 +1,10 @@
+<?php
+
+function frontpage_theme($existing, $type, $theme, $path) {
+  return [
+    'frontpage' => [
+      'variables' => ['test_var' => NULL],
+    ],
+  ];
+}
+

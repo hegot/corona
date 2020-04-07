@@ -1,0 +1,66 @@
+body {
+    background: red;
+}
+
+#page {
+    background: url('./Corona-BG.png');
+    background-size: cover;
+    position: relative;
+}
+
+.frontpage-main-block {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    width: 800px;
+}
+
+.frontpage-main-block h1 {
+    color: #00BBFA;
+    font-size: 48px;
+    margin: 0 0 40px 0;
+}
+
+.frontpage-main-block p {
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 0 0 20px 0;
+    width: 750px;
+}
+
+.frontpage-main-block .frontpage-center{
+    width: 340px;
+    margin: 70px auto;
+    text-align: center;
+
+}
+
+.frontpage-main-block .form-link {
+    background: url('./form-link.png');
+    height: 137px;
+    width: 340px;
+    background-size: cover;
+    display:inline-block;
+    cursor: pointer;
+}
+
+.frontpage-main-block .pushsend-logo {
+    margin-top: 20px;
+    height: 56px;
+    width: 222px;
+    display:inline-block;
+}
+
+.frontpage-main-block .pushsend-logo svg{
+    width: 100%;
+    height: 56px;
+}
+
+.frontpage-main-block .privacy-policy-link {
+    color: #00BBFA;
+    font-size: 19px;
+    display: block;
+    border-bottom: 1px solid #00BBFA;
+    width: 117px;
+    margin: 0 auto;
+}

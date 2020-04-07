@@ -1,0 +1,5 @@
+frontpage:
+  version: 1.x
+  css:
+    base:
+      css/frontpage.css: {}
