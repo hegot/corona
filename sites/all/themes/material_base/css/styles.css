@@ -3013,3 +3013,7 @@ ul.messages-list {
 #block-material-base-page-title{
   text-align: center;
 }
+
+.path-frontpage #block-material-base-page-title{
+  display: none;
+}
