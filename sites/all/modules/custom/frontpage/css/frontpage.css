@@ -12,8 +12,11 @@ body {
     position: absolute;
     top: 40px;
     right: 50px;
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
 }
+
+
 
 .frontpage-main-block h1 {
     color: #00BBFA;
@@ -25,7 +28,8 @@ body {
     color: #FFFFFF;
     font-size: 25px;
     padding: 0 0 20px 0;
-    width: 750px;
+    max-width: 750px;
+    width: 100%;
 }
 
 .frontpage-main-block .frontpage-center{
@@ -37,8 +41,8 @@ body {
 
 .frontpage-main-block .form-link {
     background: url('./form-link.png');
-    height: 137px;
-    width: 340px;
+    height: 120px;
+    width: 300px;
     background-size: cover;
     display:inline-block;
     cursor: pointer;
@@ -63,4 +67,54 @@ body {
     border-bottom: 1px solid #00BBFA;
     width: 117px;
     margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+    .frontpage-main-block {
+        position: relative;
+        width: 500px;
+        right: 0px;
+    }
+
+    .frontpage-main-block .frontpage-center{
+        width: 100%;
+    }
+
+    .frontpage-main-block h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .frontpage-main-block p {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .frontpage-main-block {
+        position: relative;
+        width: 300px;
+        right: 0px;
+    }
+
+
+    .frontpage-main-block h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .frontpage-main-block p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .frontpage-main-block .form-link {
+        height: 80px;
+        width: 200px;
+    }
+
+    .frontpage-main-block .pushsend-logo {
+        height: 30px;
+    }
 }
