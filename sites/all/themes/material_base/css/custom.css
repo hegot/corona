@@ -16,6 +16,10 @@
     margin: 0 auto;
 }
 
+#edit-what-symptoms-are-you-experiencing{
+    clear: both;
+}
+
 .webform-submission-corona-form .form-item label {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.87);
