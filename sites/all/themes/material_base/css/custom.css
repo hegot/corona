@@ -1,41 +1,44 @@
-.container-inline div, .container-inline .js-form-type-radio{
+.container-inline div, .container-inline .js-form-type-radio {
     clear: both;
     display: block !important;
 }
 
-#block-material-base-page-title{
+#block-material-base-page-title {
     text-align: center;
 }
 
-.path-frontpage #block-material-base-page-title{
+.path-frontpage #block-material-base-page-title {
     display: none;
 }
 
-.rangeslider--horizontal .rangeslider__handle{
+.rangeslider--horizontal .rangeslider__handle {
     width: 20px;
     height: 20px;
     top: -6px;
 }
 
-.rangeslider.rangeslider--horizontal{
+.rangeslider.rangeslider--horizontal {
     height: 10px;
 }
 
-.webform-submission-corona-form.webform-submission-form .form-item input{
+.webform-submission-corona-form.webform-submission-form .form-item input {
     width: auto;
+    max-width: 100%;
 }
 
-.webform-location-geocomplete--wrapper .form-item{
-    width: 50%;
-    float:left;
+.webform-location-geocomplete--wrapper .form-item {
+    width: 49%;
+    float: left;
+    padding-right: 1%;
 }
 
-.webform-submission-corona-form .form-item label{
+.webform-submission-corona-form .form-item label {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.87);
+    white-space: pre-line;
 }
 
-.webform-submission-corona-form .rangeslider{
+.webform-submission-corona-form .rangeslider {
     width: 300px;
 }
 
@@ -43,18 +46,71 @@
     clear: both;
 }
 
-.webform-multiple-table-responsive table td{
+.webform-multiple-table-responsive table td {
     padding: 2px;
 }
 
-.webform-multiple-table-responsive table td .form-item{
+.webform-multiple-table-responsive table td .form-item {
     margin-top: 1px;
     margin-bottom: 1px;
 }
-.webform-multiple-table-responsive table thead{
+
+.webform-multiple-table-responsive table thead {
     display: none;
 }
 
-.webform-multiple-table-responsive{
-    max-width: 300px;
+.webform-multiple-table-responsive, .webform-multiple-table-responsive table input {
+    max-width: 300px !important;
+}
+
+.webform-multiple-table-responsive td > div > label.visually-hidden {
+    display: none !important;
+}
+
+.form-text.hasDatepicker {
+    width: 100px !important;
+}
+
+@media (max-width: 900px) {
+    .webform-location-geocomplete--wrapper .form-item {
+        width: 400px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .webform-location-geocomplete--wrapper .form-item input {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .container {
+        width: 100%;
+    }
+
+    .webform-location-geocomplete--wrapper .fieldset-wrapper {
+        width: 300px;
+    }
+
+    .webform-location-geocomplete--wrapper .form-item input {
+        max-width: 400px;
+    }
+
+    .webform-location-geocomplete--wrapper .form-item {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 300px) {
+
+    body, html {
+        width: 300px;
+    }
+
+    .webform-location-geocomplete--wrapper .fieldset-wrapper {
+        width: 290px;
+    }
+
 }
