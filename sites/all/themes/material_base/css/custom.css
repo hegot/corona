@@ -118,6 +118,18 @@ select
     padding-right: 1%;
 }
 
+.form-item-location-value{
+    width: 210px;
+}
+
+.form-item-location-postal-code{
+    width: 270px;
+}
+
+.form-item-location-administrative-area-level-1{
+    width: 250px;
+}
+
 
 
 /*
