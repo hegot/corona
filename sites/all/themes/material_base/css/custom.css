@@ -11,6 +11,27 @@
     display: none;
 }
 
+.webform-submission-corona-form.webform-submission-form .form-item input {
+    max-width: 100%;
+}
+
+.webform-submission-corona-form .form-item label {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    white-space: pre-line;
+}
+
+.webform-options-display-three-columns div.form-item {
+    clear: both;
+}
+
+fieldset.webform-composite-hidden-title .fieldset-wrapper > .form-item:first-child {
+    margin-top: 8px;
+}
+
+/*
+Rangeslider
+ */
 .rangeslider--horizontal .rangeslider__handle {
     width: 20px;
     height: 20px;
@@ -21,30 +42,87 @@
     height: 10px;
 }
 
-.webform-submission-corona-form.webform-submission-form .form-item input {
-    width: auto;
-    max-width: 100%;
-}
-
-.webform-location-geocomplete--wrapper .form-item {
-    width: 49%;
-    float: left;
-    padding-right: 1%;
-}
-
-.webform-submission-corona-form .form-item label {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.87);
-    white-space: pre-line;
-}
-
 .webform-submission-corona-form .rangeslider {
     width: 300px;
 }
 
-.webform-options-display-three-columns div.form-item {
+/*
+fieldset-wrapper
+ */
+#edit-general-info > .fieldset-wrapper, #edit-details > .fieldset-wrapper {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#edit-general-info .fieldset-legend, #edit-details .fieldset-legend {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#edit-general-info .form-item-age, #edit-general-info .form-item-gender {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+#edit-general-info .form-item-do-you-think-you-have-corona-virus {
     clear: both;
 }
+
+/*
+select
+ */
+
+.webform-submission-corona-form .form-type-select select {
+    max-width: 100%;
+    display: inline;
+    clear: none;
+    width: 100px;
+    float: none;
+}
+
+.webform-submission-corona-form .form-item.form-type-select:after {
+    top: 10px;
+    margin-top: 0px;
+}
+
+.webform-submission-corona-form .form-type-select label {
+    display: inline;
+    margin-right: 15px;
+}
+
+
+/*
+ geocomplete
+ */
+.webform-submission-corona-form .form-type-textfield input {
+    width: 200px;
+    display: inline;
+    background: #ededed;
+}
+
+.webform-submission-corona-form .form-type-textfield {
+    margin-right: 20px;
+}
+
+.webform-submission-corona-form .form-type-textfield label {
+    display: inline;
+    margin-right: 5%;
+    line-height: 40px;
+}
+
+.webform-location-geocomplete--wrapper .form-item {
+    float: left;
+    padding-right: 1%;
+}
+
+
+
+/*
+multiple field table
+ */
 
 .webform-multiple-table-responsive table td {
     padding: 2px;
@@ -70,6 +148,9 @@
 .form-text.hasDatepicker {
     width: 100px !important;
 }
+
+
+
 
 @media (max-width: 900px) {
     .webform-location-geocomplete--wrapper .form-item {
@@ -114,3 +195,4 @@
     }
 
 }
+
