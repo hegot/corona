@@ -1,0 +1,60 @@
+.container-inline div, .container-inline .js-form-type-radio{
+    clear: both;
+    display: block !important;
+}
+
+#block-material-base-page-title{
+    text-align: center;
+}
+
+.path-frontpage #block-material-base-page-title{
+    display: none;
+}
+
+.rangeslider--horizontal .rangeslider__handle{
+    width: 20px;
+    height: 20px;
+    top: -6px;
+}
+
+.rangeslider.rangeslider--horizontal{
+    height: 10px;
+}
+
+.webform-submission-corona-form.webform-submission-form .form-item input{
+    width: auto;
+}
+
+.webform-location-geocomplete--wrapper .form-item{
+    width: 50%;
+    float:left;
+}
+
+.webform-submission-corona-form .form-item label{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.webform-submission-corona-form .rangeslider{
+    width: 300px;
+}
+
+.webform-options-display-three-columns div.form-item {
+    clear: both;
+}
+
+.webform-multiple-table-responsive table td{
+    padding: 2px;
+}
+
+.webform-multiple-table-responsive table td .form-item{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.webform-multiple-table-responsive table thead{
+    display: none;
+}
+
+.webform-multiple-table-responsive{
+    max-width: 300px;
+}

@@ -3005,15 +3005,3 @@ ul.messages-list {
 /*# sourceMappingURL=../css/styles.css.map */
 
 
-.container-inline div, .container-inline .js-form-type-radio{
-  clear: both;
-  display: block !important;
-}
-
-#block-material-base-page-title{
-  text-align: center;
-}
-
-.path-frontpage #block-material-base-page-title{
-  display: none;
-}

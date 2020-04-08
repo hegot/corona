@@ -44,6 +44,7 @@ styles:
   css:
     theme:
       css/styles.css: {}
+      css/custom.css: {}
       css/fonts.css: {}
   js:
     js/jquery.ripple.js: {}
