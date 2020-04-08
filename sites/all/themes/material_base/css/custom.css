@@ -98,7 +98,7 @@ select
  geocomplete
  */
 .webform-submission-corona-form .form-type-textfield input {
-    width: 200px;
+    width: 150px;
     display: inline;
     background: #ededed;
 }
