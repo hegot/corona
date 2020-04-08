@@ -11,6 +11,10 @@
     display: none;
 }
 
+.webform-submission-corona-form{
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 .webform-submission-corona-form .form-item label {
     font-size: 16px;
