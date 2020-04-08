@@ -11,9 +11,6 @@
     display: none;
 }
 
-.webform-submission-corona-form.webform-submission-form .form-item input {
-    max-width: 100%;
-}
 
 .webform-submission-corona-form .form-item label {
     font-size: 16px;
@@ -27,6 +24,10 @@
 
 fieldset.webform-composite-hidden-title .fieldset-wrapper > .form-item:first-child {
     margin-top: 8px;
+}
+
+.webform-options-display-two-columns .form-item{
+    clear: both;
 }
 
 /*
@@ -98,8 +99,9 @@ select
  geocomplete
  */
 .webform-submission-corona-form .form-type-textfield input {
-    width: 150px;
+    max-width: 300px;
     display: inline;
+    width: 100%;
     background: #ededed;
 }
 
@@ -113,23 +115,9 @@ select
     line-height: 40px;
 }
 
-.webform-location-geocomplete--wrapper .form-item {
-    float: left;
-    padding-right: 1%;
-}
-
 .form-item-location-value{
-    width: 210px;
+    width: 90%;
 }
-
-.form-item-location-postal-code{
-    width: 270px;
-}
-
-.form-item-location-administrative-area-level-1{
-    width: 250px;
-}
-
 
 
 /*
