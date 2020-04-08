@@ -30,6 +30,15 @@ fieldset.webform-composite-hidden-title .fieldset-wrapper > .form-item:first-chi
     clear: both;
 }
 
+.webform-confirmation__back{
+    display: none;
+}
+
+.webform-confirmation__message{
+    text-align: center;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.87);
+}
 /*
 Rangeslider
  */
