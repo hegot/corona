@@ -70,7 +70,7 @@ fieldset-wrapper
  */
 #edit-general-info > .fieldset-wrapper, #edit-details > .fieldset-wrapper {
     border: 1px solid grey;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 #edit-general-info .fieldset-legend, #edit-details .fieldset-legend {
