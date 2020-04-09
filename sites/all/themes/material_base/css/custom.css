@@ -11,14 +11,14 @@
     display: none;
 }
 
-.webform-submission-corona-form{
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 #edit-what-symptoms-are-you-experiencing{
     clear: both;
     width: 100%;
+}
+
+.webform-submission-corona-form{
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .webform-submission-corona-form .form-item label {
@@ -85,7 +85,7 @@ fieldset-wrapper
 }
 
 #edit-general-info .form-item-age, #edit-general-info .form-item-gender {
-    float: left;
+    display: inline-block;
     margin-right: 30px;
     margin-bottom: 20px;
 }
@@ -184,10 +184,44 @@ multiple field table
     .webform-location-geocomplete--wrapper .form-item input {
         width: 100%;
     }
+
+    .container{
+        padding: 0px;
+    }
+
+    .webform-submission-corona-form{
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .webform-submission-corona-form div{
+        max-width: 100%;
+    }
+
+    .webform-submission-corona-form .form-type-textfield input {
+        clear: both;
+    }
 }
 
+@media (max-width: 500px) {
+
+    #edit-general-info > .fieldset-wrapper, #edit-details > .fieldset-wrapper {
+        border: none;
+        clear: both;
+    }
+
+    .webform-type-fieldset legend{
+        clear: both;
+        padding-left: 20px;
+    }
+}
 
 @media (max-width: 400px) {
+
+    .block-material-base-page-title h1{
+        white-space: pre-line;
+    }
+
     .container {
         width: 100%;
     }
@@ -203,18 +237,40 @@ multiple field table
     .webform-location-geocomplete--wrapper .form-item {
         width: 100%;
     }
+
+    #edit-general-info > .fieldset-wrapper, #edit-details > .fieldset-wrapper {
+        padding: 10px;
+        width: 95%;
+    }
 }
 
 
-@media (max-width: 300px) {
+@media (max-width: 330px) {
 
-    body, html {
-        width: 300px;
-    }
 
     .webform-location-geocomplete--wrapper .fieldset-wrapper {
         width: 290px;
     }
 
+
+    #edit-location--wrapper{
+        width: 250px;
+    }
+
+    .webform-location-geocomplete--wrapper .form-item input {
+        max-width: 230px;
+    }
 }
 
+@media (max-width: 300px) {
+
+
+    .webform-location-geocomplete--wrapper .fieldset-wrapper {
+        width: 270px;
+    }
+
+    #edit-general-info > .fieldset-wrapper, #edit-details > .fieldset-wrapper{
+        width: 240px;
+        margin: 0 auto;
+    }
+}
