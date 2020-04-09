@@ -65,6 +65,10 @@ Rangeslider
     width: 300px;
 }
 
+.webform-multiple-table-responsive td.webform-multiple-table--operations{
+    display: block !important;
+}
+
 /*
 fieldset-wrapper
  */
